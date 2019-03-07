@@ -41,3 +41,7 @@ git checkout -b testing => testing branşı yaratır ve geçiş yapar
 
 git log --oneline => satır satır geçmişi gösterir
 git log --oneline --decorate --graph --all
+
+git merge testing => üzerinde çalışılan branch ile testing branchi merge edilir
+
+git branch -d testing => testing branchi siler
