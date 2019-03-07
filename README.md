@@ -24,6 +24,8 @@ git diff => staged dışında ki değişiklikler
 
 git diff --staged yada git diff --cached => staged değişiklikler
 
+git reset HEAD fileName => dosya unstaged olur
+
 git reset --hard HEAD => localde ki tüm değişiklikler HEAD versiyonuna döner
 
 git revert => yapılan commiti geri alır (rollback)
