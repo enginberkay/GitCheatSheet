@@ -45,3 +45,5 @@ git log --oneline --decorate --graph --all
 git merge testing => üzerinde çalışılan branch ile testing branchi merge edilir
 
 git branch -d testing => testing branchi siler
+
+git push origin --delete testing => remote branch silindi
