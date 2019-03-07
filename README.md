@@ -31,3 +31,13 @@ git revert => yapılan commiti geri alır (rollback)
 git fetch origin => uzak repordaki değişiklikleri alır merge yapmaz
 
 git pull origin => uzak repordaki değişiklikleri alır ve merge yapar
+
+git branch => mevcut branchleri gösterir
+
+git branch testing => testing branşı yaratır
+
+git checkout testing => testing branşına geçer
+git checkout -b testing => testing branşı yaratır ve geçiş yapar
+
+git log --oneline => satır satır geçmişi gösterir
+git log --oneline --decorate --graph --all
