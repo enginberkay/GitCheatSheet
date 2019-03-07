@@ -3,6 +3,9 @@ Git komutları üzerine çalışma
 
 git clone git_repo_url.git
 
+git remote --verbose => remote reporları gösterir
+git remote add <shortName> <url> => uzak repo bağlantısı ekler
+
 Edit readme file
 
 git status
@@ -20,3 +23,11 @@ git status -s => liste halinde gösterir
 git diff => staged dışında ki değişiklikler
 
 git diff --staged yada git diff --cached => staged değişiklikler
+
+git reset --hard HEAD => localde ki tüm değişiklikler HEAD versiyonuna döner
+
+git revert => yapılan commiti geri alır (rollback)
+
+git fetch origin => uzak repordaki değişiklikleri alır merge yapmaz
+
+git pull origin => uzak repordaki değişiklikleri alır ve merge yapar
