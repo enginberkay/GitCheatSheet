@@ -1,6 +1,9 @@
 # GitDenemesi
 Git komutları üzerine çalışma
 
+git config --global user.name userName
+git config --global user.email userName@mailServer.com
+
 git clone git_repo_url.git
 
 git remote --verbose => remote reporları gösterir
