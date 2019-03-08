@@ -52,3 +52,4 @@ git merge testing => üzerinde çalışılan branch ile testing branchi merge ed
 git branch -d testing => testing branchi siler
 
 git push origin --delete testing => remote branch silindi
+asdasdas
